@@ -1,8 +1,8 @@
-var loader=document.querySelector(".preloader");
+/*var loader=document.querySelector(".preloader");
 window.addEventListener('click',function(){
     loader.style.display="none";
    
-});
+});*/
 
 const stars=document.querySelectorAll('#star');
 
