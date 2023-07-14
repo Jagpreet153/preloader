@@ -191,7 +191,7 @@ body{
     top: 10.3rem;
   }
   .title{
-     left: 5rem;
+     left: 3rem;
      top:24rem;
   }
 }
@@ -209,6 +209,8 @@ body{
     left:4.3rem;
     top: 10.4rem;
   }
+  .title{
+    left:2rem;
 }
 
 @media(max-width:321px)
@@ -221,7 +223,7 @@ body{
     left: 1.8rem;
   }
   .title{
-    left: 3rem;
+    left: 1rem;
     top: 22rem;
   }
   .outer-space{
