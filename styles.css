@@ -179,7 +179,7 @@ body{
 @media(max-width:426px)
 {
   .outer-space{
-    left: 4rem;
+    left: 4.5rem;
     width: 60%;
     top: -9rem;
   }
@@ -187,11 +187,11 @@ body{
     height: 13rem;
   }
   .rocket-container{
-    left:6.5rem;
+    left:7rem;
     top: 10.3rem;
   }
   .title{
-     left: 3rem;
+     left: 2rem;
      top:24rem;
   }
 }
