@@ -179,7 +179,7 @@ body{
 @media(max-width:426px)
 {
   .outer-space{
-    left: 6rem;
+    left: 8rem;
     width: 60%;
     top: -9rem;
   }
@@ -187,7 +187,7 @@ body{
     height: 13rem;
   }
   .rocket-container{
-    left:8rem;
+    left:10rem;
     top: 10.3rem;
   }
   .title{
@@ -199,14 +199,14 @@ body{
 @media(max-width:376px)
 {
   .outer-space{
-    left: 6rem;
+    left: 8rem;
     width: 60%;
   }
   .rocket{
     height: 12rem;
   }
   .rocket-container{
-    left:7rem;
+    left:9rem;
     top: 10.4rem;
   }
 }
@@ -218,7 +218,7 @@ body{
   }
   .rocket-container{
     top: 11.4rem;
-    left: 6rem;
+    left: 8rem;
   }
   .title{
     left: 3rem;
