@@ -181,18 +181,18 @@ body{
   .outer-space{
     left: 6rem;
     width: 60%;
-    top: -7rem;
+    top: -9rem;
   }
   .rocket{
     height: 13rem;
   }
   .rocket-container{
     left:8rem;
-    top: 12.3rem;
+    top: 10.3rem;
   }
   .title{
      left: 5rem;
-     top:26rem;
+     top:24rem;
   }
 }
 
@@ -207,7 +207,7 @@ body{
   }
   .rocket-container{
     left:7rem;
-    top: 12.4rem;
+    top: 10.4rem;
   }
 }
 
@@ -217,12 +217,12 @@ body{
     height: 10rem;
   }
   .rocket-container{
-    top: 13.4rem;
+    top: 11.4rem;
     left: 6rem;
   }
   .title{
     left: 3rem;
+    top: 22rem;
   }
 }
-
 
