@@ -11,21 +11,23 @@ body{
     top: 0;
     position: fixed;
     left: 0;
-
     overflow: hidden;
     background-color: #fff;
 }
+
+
+
 
 .outer-space{
   z-index: 1000;
   width: 37.5rem;
   position: absolute;
   left:30%;
-  
 }
 
 .rocket{
-  animation: move 0.7s linear infinite alternate;
+  animation: move  0.7s linear infinite alternate;
+  transform: translateY(100px);
 }
 
 @keyframes move{
@@ -51,7 +53,7 @@ body{
 }
 
 #launching-pad{
-  animation: lp 1s linear infinite;
+  animation: 1s linear infinite;
   transform: translateY(200px);
 }
 
@@ -96,18 +98,130 @@ body{
 .rocket-container{
   z-index: 10000;
   position: absolute;
-  left: 43%;
-  top: 2.72%;
+  left: 40rem;
+  top: 13.4rem;
 }
 
 .title{
   color: #000;
   font-family:cursive;
   position:absolute;
-  left: 32%;
-  top: 9%;
+  left: 31rem;
+  top: 44rem;
   font-size: 1.5rem;
   letter-spacing: 0.2rem;
+}
+
+
+@media(min-width: 2560px) {
+  .outer-space{
+    width: 40rem;
+    left: 63rem;
+    top: 3rem;
+  }
+  .rocket-container{
+    left: 77rem;
+    top: -32.3rem;
+  }
+  .rocket{
+    height: 130rem;
+    }
+  .title{
+    left: 65rem;
+    top: 50rem;
+    font-size: 2rem;
+  }
+}
+
+@media(max-width:1024px)
+{
+
+  .outer-space{
+    z-index: 1000;
+    width: 25rem; 
+    left:21rem;
+    
+  }
+
+  .rocket-container{
+
+    left: 27rem;
+    top: 17rem;
+
+  }
+  .rocket{
+    height: 20rem;
+  }
+  
+  .title{
+    top: 37rem;
+    left: 17rem;
+
+  }
+}
+
+
+@media(max-width:768px)
+{
+  .rocket-container{
+    left:17rem;
+  }
+  .outer-space{
+    left: 10rem;
+  }
+
+  .title{
+    left: 10rem;
+  }
+}
+
+
+@media(max-width:426px)
+{
+  .outer-space{
+    left: 6rem;
+    width: 60%;
+  }
+  .rocket{
+    height: 13rem;
+  }
+  .rocket-container{
+    left:8rem;
+    top: 19.4rem;
+  }
+  .title{
+     left: 5rem;
+     top:33rem;
+  }
+}
+
+@media(max-width:376px)
+{
+  .outer-space{
+    left: 6rem;
+    width: 60%;
+  }
+  .rocket{
+    height: 12rem;
+  }
+  .rocket-container{
+    left:8rem;
+    top: 19.3rem;
+  }
+}
+
+@media(max-width:321px)
+{
+  .rocket{
+    height: 10rem;
+  }
+  .rocket-container{
+    top: 20.3rem;
+    left: 6rem;
+  }
+  .title{
+    left: 3rem;
+  }
 }
 
 
